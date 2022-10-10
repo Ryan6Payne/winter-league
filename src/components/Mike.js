@@ -3,7 +3,7 @@ function Mike(){
         <div className="player-card">
             <div className="row">
                 <div className="col-sm name">
-                    <h1>Mike Dougan</h1>
+                    <h3>Mike Dougan</h3>
                 </div>
             </div>
             <div>

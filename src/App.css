@@ -12,7 +12,14 @@ h1 {
     border-radius: 20px;
     margin-bottom: 10px;
     margin-top: 10px;
-    opacity: 0.5;
+    opacity: 0.7;
+    width: 170px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .application {
@@ -22,13 +29,14 @@ h1 {
 }
 
 .container {
-  width: 75%;
+  width: 100%;
   margin: 0 auto;
 }
 
 .name {
   display: flex;
   justify-content: center;
+  margin: 0 auto;
 }
 
 #scores {
@@ -41,6 +49,7 @@ h1 {
 
 #scores td, #scores th {
   padding: 8px;
+  font-size: 12px;
 }
 
 #scores tr:nth-child(even){background-color: #f2f2f2;}

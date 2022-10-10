@@ -4,7 +4,7 @@ function Jeremy(props){
         <div className="player-card">
             <div className="row">
                 <div className="col-sm name">
-                    <h1>Jeremy Nevett</h1>
+                    <h3>Jeremy Nevett</h3>
                 </div>
             </div>
             <div>

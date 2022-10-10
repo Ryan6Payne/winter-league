@@ -3,7 +3,7 @@ function Scott(props){
         <div className="player-card">
             <div className="row">
                 <div className="col-sm name">
-                    <h1>Scott Jacquest</h1>
+                    <h3>Scott Jacquest</h3>
                 </div>
             </div>
             <div>

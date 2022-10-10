@@ -3,7 +3,7 @@ function Craig(props){
         <div className="player-card">
             <div className="row">
                 <div className="col-sm name">
-                    <h1>Craig Biggs</h1>
+                    <h3>Craig Biggs</h3>
                 </div>
             </div>
             <div>

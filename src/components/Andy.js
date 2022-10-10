@@ -3,7 +3,7 @@ function Andy(){
         <div className="player-card">
             <div className="row">
                 <div className="col-sm name">
-                    <h1>Andy Feakin</h1>
+                    <h3>Andy Feakin</h3>
                 </div>
             </div>
             <div>

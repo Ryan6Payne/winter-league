@@ -10,52 +10,47 @@ import '../App.css'
 
 function Center(){
         return(
-                <div>
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-sm">
-                                <Scott/>
-                            </div>
+            <div>
+                <div class="container">
+
+                    <div class="row firstrow">
+                        <div class="col-sm">
+                            <Scott/>
                         </div>
-                        <div className="row">
-                            <div className="col-sm">
-                                <Ryan/>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-sm">
-                                <Craig/>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-sm">
-                                <Mike/>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-sm">
-                                <Andy/>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-sm">
-                                <Jeremy/>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-sm">
-                                <Adrian/>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-sm">
-                                <Nick/>
-                            </div>
+                        <div class="col-sm">
+                            <Ryan/>
                         </div>
                     </div>
 
+                    <div className="row">
+                        <div className="col-sm">
+                            <Craig/>
+                        </div>
+                        <div className="col-sm">
+                            <Mike/>
+                        </div>
+                    </div>
 
+                    <div className="row">
+                        <div className="col-sm">
+                            <Andy/>
+                        </div>
+                        <div className="col-sm">
+                            <Jeremy/>
+                        </div>
+                    </div>
+
+                    <div className="row">
+                        <div className="col-sm">
+                            <Adrian/>
+                        </div>
+                        <div className="col-sm">
+                            <Nick/>
+                        </div>
+                    </div>
                 </div>
+            </div>
+                
         )
 }
 

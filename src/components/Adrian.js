@@ -3,7 +3,7 @@ function Adrian(){
         <div className="player-card">
             <div className="row">
                 <div className="col-sm name">
-                    <h1>Adrian Hobson</h1>
+                    <h3>Adrian Hobson</h3>
                 </div>
             </div>
             <div>
