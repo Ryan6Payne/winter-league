@@ -3,7 +3,10 @@ function Adrian(){
         <div className="player-card">
             <div className="row">
                 <div className="col-sm name">
-                    <h1>Adrian Hobson</h1>
+                    <h3>Adrian Hobson</h3>
+                </div>
+                <div>
+                    <p>Total points: 30</p>
                 </div>
             </div>
             <div>
@@ -14,7 +17,7 @@ function Adrian(){
                 </tr>
                 <tr>
                     <td>30</td>
-                    <td>09/10/2022</td>
+                    <td>Week 1</td>
                 </tr>
             </table>
             </div>

@@ -4,7 +4,10 @@ function Nick(props){
         <div className="player-card">
             <div className="row">
                 <div className="col-sm name">
-                    <h1>Nick Howell</h1>
+                    <h3>Nick Howell</h3>
+                </div>
+                <div>
+                    <p>Total points: 30</p>
                 </div>
             </div>
             <div>
@@ -15,7 +18,7 @@ function Nick(props){
                 </tr>
                 <tr>
                     <td>30</td>
-                    <td>09/10/2022</td>
+                    <td>Week 1</td>
                 </tr>
             </table>
             </div>
