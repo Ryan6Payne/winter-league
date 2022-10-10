@@ -6,6 +6,9 @@ function Nick(props){
                 <div className="col-sm name">
                     <h3>Nick Howell</h3>
                 </div>
+                <div>
+                    <p>Total points: 30</p>
+                </div>
             </div>
             <div>
             <table id="scores">
@@ -15,7 +18,7 @@ function Nick(props){
                 </tr>
                 <tr>
                     <td>30</td>
-                    <td>09/10/2022</td>
+                    <td>Week 1</td>
                 </tr>
             </table>
             </div>

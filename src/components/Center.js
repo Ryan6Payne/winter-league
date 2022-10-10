@@ -11,9 +11,18 @@ import '../App.css'
 function Center(){
         return(
             <div>
+                {/* <div class="information">
+                    <h1 class="title">Winter League</h1>
+                    <div class="breakdown">
+                        <p>First Place: £120</p>
+                        <p>Second Place: £80</p>
+                        <p>Third Place: £40</p>
+                    </div>
+                </div> */}
+
                 <div class="container">
 
-                    <div class="row firstrow">
+                    <div class="row">
                         <div class="col-sm">
                             <Scott/>
                         </div>
@@ -24,10 +33,10 @@ function Center(){
 
                     <div className="row">
                         <div className="col-sm">
-                            <Craig/>
+                            <Mike/>
                         </div>
                         <div className="col-sm">
-                            <Mike/>
+                            <Craig/>
                         </div>
                     </div>
 

@@ -6,6 +6,9 @@ function Jeremy(props){
                 <div className="col-sm name">
                     <h3>Jeremy Nevett</h3>
                 </div>
+                <div>
+                    <p>Total points: 34</p>
+                </div>
             </div>
             <div>
             <table id="scores">
@@ -15,7 +18,7 @@ function Jeremy(props){
                 </tr>
                 <tr>
                     <td>34</td>
-                    <td>09/10/2022</td>
+                    <td>Week 1</td>
                 </tr>
             </table>
             </div>
