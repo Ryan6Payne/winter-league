@@ -1,13 +1,11 @@
 function Scott(props){
     return(
         <div className="player-card silver">
-            <div className="row">
-                <div className="col-sm name">
-                    <h3>Ryan Payne</h3>
-                </div>
-                <div>
-                    <p>Total points: 72</p>
-                </div>
+            <div className="col-sm name">
+                <h5>Ryan</h5>
+            </div>
+            <div>
+                <p className="tpoints">Total points: 72</p>
             </div>
             <div>
             <table id="scores">

@@ -3,10 +3,10 @@ function Adrian(){
         <div className="player-card">
             <div className="row">
                 <div className="col-sm name">
-                    <h3>Adrian Hobson</h3>
+                    <h5>Adrian</h5>
                 </div>
                 <div>
-                    <p>Total points: 30</p>
+                    <p className="tpoints">Total points: 30</p>
                 </div>
             </div>
             <div>

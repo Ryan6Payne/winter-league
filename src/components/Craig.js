@@ -1,13 +1,11 @@
 function Craig(props){
     return(
         <div className="player-card bronze">
-            <div className="row">
-                <div className="col-sm name">
-                    <h3>Craig Biggs</h3>
-                </div>
-                <div>
-                    <p>Total points: 67</p>
-                </div>
+            <div className="name">
+                <h5>Craig</h5>
+            </div>
+            <div>
+                <p className="tpoints">Total points: 67</p>
             </div>
             <div>
             <table id="scores">

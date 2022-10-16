@@ -6,8 +6,14 @@ h1 {
   opacity: 1 !important;
 }
 
-h3 {
+h5 {
   margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.tpoints {
+  font-size: 12px;
+  text-align: center;
 }
 
 /* .title {
@@ -52,7 +58,7 @@ p {
     margin-bottom: 10px;
     margin-top: 10px;
     opacity: 0.8;
-    width: 170px;
+    width: 120px;
 }
 
 .row {
@@ -86,9 +92,9 @@ p {
   margin-bottom: 20px;
 }
 
-#scores td, #scores th {
-  padding: 8px;
-  font-size: 12px;
+#scores td{
+  padding: 8px 6px 8px 6px;
+  font-size: 10px;
 }
 
 #scores tr:nth-child(even){background-color: #f2f2f2;}
@@ -96,8 +102,8 @@ p {
 /* #scores tr:nth-child(odd){background-color: #D0D0D0;} */
 
 #scores th {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  font-size: 10px;
+  padding: 8px 6px 8px 6px;
   text-align: left;
   background-color: grey;
   color: white;

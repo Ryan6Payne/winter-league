@@ -1,13 +1,11 @@
 function Andy(){
     return(
         <div className="player-card">
-            <div className="row">
-                <div className="col-sm name">
-                    <h3>Andy Feakin</h3>
-                </div>
-                <div>
-                    <p>Total points: 34</p>
-                </div>
+            <div className="col-sm name">
+                <h5>Andy</h5>
+            </div>
+            <div>
+                <p className="tpoints">Total points: 34</p>
             </div>
             <div>
             <table id="scores">

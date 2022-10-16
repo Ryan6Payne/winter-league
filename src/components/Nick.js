@@ -2,13 +2,11 @@ function Nick(props){
     
     return(
         <div className="player-card">
-            <div className="row">
-                <div className="col-sm name">
-                    <h3>Nick Howell</h3>
-                </div>
-                <div>
-                    <p>Total points: 66</p>
-                </div>
+            <div className="col-sm name">
+                <h5>Nick</h5>
+            </div>
+            <div>
+                <p className="tpoints">Total points: 66</p>
             </div>
             <div>
             <table id="scores">

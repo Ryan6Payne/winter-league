@@ -6,6 +6,7 @@ import Andy from "./Andy";
 import Mike from "./Mike";
 import Nick from "./Nick";
 import Craig from "./Craig";
+import Blank from "./Blank";
 import '../App.css'
 
 function Center(){
@@ -14,9 +15,9 @@ function Center(){
                 {/* <div class="information">
                     <h1 class="title">Winter League</h1>
                     <div class="breakdown">
-                        <p>First Place: £120</p>
-                        <p>Second Place: £80</p>
-                        <p>Third Place: £40</p>
+                        <p className="tpoints">First Place: £120</p>
+                        <p className="tpoints">Second Place: £80</p>
+                        <p className="tpoints">Third Place: £40</p>
                     </div>
                 </div> */}
 
@@ -29,18 +30,16 @@ function Center(){
                         <div class="col-sm">
                             <Ryan/>
                         </div>
-                    </div>
-
-                    <div className="row">
                         <div className="col-sm">
                             <Craig/>
                         </div>
-                        <div className="col-sm">
-                            <Nick/>
-                        </div>
                     </div>
 
+
                     <div className="row">
+                    <div className="col-sm">
+                            <Nick/>
+                        </div>
                         <div className="col-sm">
                             <Jeremy/>
                         </div>
@@ -55,6 +54,9 @@ function Center(){
                         </div>
                         <div className="col-sm">
                             <Adrian/>
+                        </div>
+                        <div className="col-sm">
+                            <Blank/>
                         </div>
                     </div>
                 </div>
