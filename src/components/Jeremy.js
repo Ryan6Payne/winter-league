@@ -7,7 +7,7 @@ function Jeremy(props){
                     <h3>Jeremy Nevett</h3>
                 </div>
                 <div>
-                    <p>Total points: 34</p>
+                    <p>Total points: 65</p>
                 </div>
             </div>
             <div>
@@ -19,6 +19,10 @@ function Jeremy(props){
                 <tr>
                     <td>34</td>
                     <td>Week 1</td>
+                </tr>
+                <tr>
+                    <td>31</td>
+                    <td>Week 2</td>
                 </tr>
             </table>
             </div>
