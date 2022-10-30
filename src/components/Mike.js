@@ -5,7 +5,7 @@ function Mike(){
                 <h5>Mike</h5>
             </div>
             <div>
-                <p className="tpoints">Total points: 34</p>
+                <p className="tpoints">Total points: 60</p>
             </div>
             <div>
             <table id="scores">
@@ -16,6 +16,10 @@ function Mike(){
                 <tr>
                     <td>34</td>
                     <td>Week 1</td>
+                </tr>
+                <tr>
+                    <td>26</td>
+                    <td>Week 4</td>
                 </tr>
             </table>
             </div>

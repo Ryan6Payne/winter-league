@@ -44,13 +44,13 @@ function Center(){
                             <Jeremy/>
                         </div>
                         <div className="col-sm">
-                            <Mike/>
+                            <Andy/>
                         </div>
                     </div>
 
                     <div className="row">
                         <div className="col-sm">
-                            <Andy/>
+                            <Mike/>
                         </div>
                         <div className="col-sm">
                             <Adrian/>

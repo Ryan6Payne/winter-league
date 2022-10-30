@@ -6,7 +6,7 @@ function Jeremy(props){
                 <h5>Jeremy</h5>
             </div>
             <div>
-                <p className="tpoints">Total points: 65</p>
+                <p className="tpoints">Total points: 90</p>
             </div>
             <div>
             <table id="scores">
@@ -21,6 +21,10 @@ function Jeremy(props){
                 <tr>
                     <td>31</td>
                     <td>Week 2</td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>Week 4</td>
                 </tr>
             </table>
             </div>
