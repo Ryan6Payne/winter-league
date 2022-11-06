@@ -8,22 +8,62 @@ function Mike(){
                 <p className="tpoints">Total points: 60</p>
             </div>
             <div>
-            <table id="scores">
-                <tr>
-                    <th>Score</th>
-                    <th>Date</th>
-                </tr>
-                <tr>
-                    <td>34</td>
-                    <td>Week 1</td>
-                </tr>
-                <tr>
-                    <td>26</td>
-                    <td>Week 4</td>
-                </tr>
-            </table>
+            <div className="tables-container">
+                <table id="scores">
+                    <tr>
+                        <td>34</td>
+                        <td>Week 1</td>
+                    </tr>
+                    <tr>
+                        <td>26</td>
+                        <td>Week 4</td>
+                    </tr>
+                    <tr>
+                        <td>  </td>
+                        <td>      </td>
+                    </tr>
+                    <tr>
+                        <td>  </td>
+                        <td>      </td>
+                    </tr>
+                    <tr>
+                        <td>  </td>
+                        <td>      </td>
+                    </tr>
+                    <tr>
+                        <td>  </td>
+                        <td>      </td>
+                    </tr>
+                </table>
+                <table className="right-table" id="scores">
+                    <tr>
+                        <td>  </td>
+                        <td>      </td>
+                    </tr>
+                    <tr>
+                        <td>  </td>
+                        <td>      </td>
+                    </tr>
+                    <tr>
+                        <td>  </td>
+                        <td>      </td>
+                    </tr>
+                    <tr>
+                        <td>  </td>
+                        <td>      </td>
+                    </tr>
+                    <tr>
+                        <td>  </td>
+                        <td>      </td>
+                    </tr>
+                    <tr>
+                        <td>  </td>
+                        <td>      </td>
+                    </tr>
+                </table>
             </div>
         </div>
+    </div>
     )
 }
 
