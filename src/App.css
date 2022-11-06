@@ -50,7 +50,6 @@ p {
   font-size: 14px;
 }
 
-
 .player-card{
     background-color: #66a3ff;
     border: 2px solid black;
@@ -58,7 +57,7 @@ p {
     margin-bottom: 10px;
     margin-top: 10px;
     opacity: 0.8;
-    width: 120px;
+    width: 128px;
 }
 
 .row {
@@ -97,7 +96,7 @@ p {
   font-size: 11px;
   width: 10px;
   text-align: center;
-  height: 13px;
+  height: 15px;
 }
 
 .tables-container {
@@ -154,4 +153,46 @@ tr:last-of-type td:last-of-type {
 .demo a{
   font-family: 'Raleway', sans-serif;
 color: #000;		
+}
+
+@media screen and (max-width: 404px) {
+  .player-card {
+    width: 118px;
+  }
+}
+
+@media screen and (max-width: 367px) {
+  .player-card {
+    width: 115px;
+  }
+  #scores td{
+    font-size: 10px;
+    width: 10px;
+    text-align: center;
+    height: 15px;
+  }
+}
+
+@media screen and (max-width: 356px) {
+  .player-card {
+    width: 108px;
+  }
+  #scores td{
+    font-size: 10px;
+    width: 10px;
+    text-align: center;
+    height: 15px;
+  }
+}
+
+@media screen and (max-width: 335px) {
+  .player-card {
+    width: 102px;
+  }
+  #scores td{
+    font-size: 9px;
+    width: 10px;
+    text-align: center;
+    height: 15px;
+  }
 }
