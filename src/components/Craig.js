@@ -5,13 +5,17 @@ function Craig(props){
                 <h5>Craig</h5>
             </div>
             <div>
-                <p className="tpoints">Total points: 133</p>
+                <p className="tpoints">Total points: 170</p>
             </div>
             <div>
             <table id="scores">
                 <tr>
                     <th>Score</th>
                     <th>Date</th>
+                </tr>
+                <tr>
+                    <td>37</td>
+                    <td>Week 5</td>
                 </tr>
                 <tr>
                     <td>34</td>
