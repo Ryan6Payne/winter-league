@@ -1,7 +1,7 @@
 import Jeremy from "./Jeremy";
 import Scott from "./Scott";
 import Ryan from "./Ryan";
-import Adrian from "./Adrian";
+import Information from "./Information";
 import Andy from "./Andy";
 import Mike from "./Mike";
 import Nick from "./Nick";
@@ -53,11 +53,14 @@ function Center(){
                             <Mike/>
                         </div>
                         <div className="col-sm">
+                            <Information/>
+                        </div>
+                        {/* <div className="col-sm">
                             <Blank/>
                         </div>
                         <div className="col-sm">
                             <Blank/>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

@@ -60,6 +60,32 @@ p {
     width: 128px;
 }
 
+.information-card{
+  background-color: #118C4F;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  opacity: 0.8;
+  width: 200px;
+  height: 178px;
+}
+
+.information-header{
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.information-text{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
