@@ -24,14 +24,14 @@ function Center(){
                 <div class="container">
 
                     <div class="row">
-                        <div class="col-sm">
-                            <Scott/>
+                        <div className="col-sm">
+                            <Craig/>
                         </div>
                         <div class="col-sm">
                             <Ryan/>
                         </div>
-                        <div className="col-sm">
-                            <Craig/>
+                        <div class="col-sm">
+                            <Scott/>
                         </div>
                     </div>
 
