@@ -12,15 +12,6 @@ import '../App.css'
 function Center(){
         return(
             <div>
-                {/* <div class="information">
-                    <h1 class="title">Winter League</h1>
-                    <div class="breakdown">
-                        <p className="tpoints">First Place: £120</p>
-                        <p className="tpoints">Second Place: £80</p>
-                        <p className="tpoints">Third Place: £40</p>
-                    </div>
-                </div> */}
-
                 <div class="container">
 
                     <div class="row">
@@ -28,13 +19,12 @@ function Center(){
                             <Craig/>
                         </div>
                         <div class="col-sm">
-                            <Ryan/>
-                        </div>
-                        <div class="col-sm">
                             <Scott/>
                         </div>
+                        <div class="col-sm">
+                            <Ryan/>
+                        </div>
                     </div>
-
 
                     <div className="row">
                         <div className="col-sm">
