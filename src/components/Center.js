@@ -15,11 +15,11 @@ function Center(){
                 <div class="container">
 
                     <div class="row">
-                        <div className="col-sm">
-                            <Craig/>
-                        </div>
                         <div class="col-sm">
                             <Scott/>
+                        </div>
+                        <div className="col-sm">
+                            <Craig/>
                         </div>
                         <div class="col-sm">
                             <Ryan/>
