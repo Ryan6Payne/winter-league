@@ -6,50 +6,49 @@ function Nick(props){
                 <h5>Nick</h5>
             </div>
             <div>
-                <p className="tpoints">Total points: 256</p>
-                <p className="avg-points">Average: 32</p>
+                <p className="tpoints">Total points: 287</p>
+                <p className="avg-points">Average: 31.89</p>
             </div>
             <div>
             <div className="tables-container">
                 <table id="scores">
                     <tr>
                         <td>36</td>
-                        <td>Week 2</td>
+                        <td>Week2</td>
                     </tr>
                     <tr>
                         <td>36</td>
-                        <td>Week 6</td>
+                        <td>Week6</td>
                     </tr>
                     <tr>
                         <td>35</td>
-                        <td>Week 5</td>
+                        <td>Week5</td>
                     </tr>
                     <tr>
                         <td>33</td>
-                        <td>Week 4</td>
+                        <td>Week4</td>
                     </tr>
                     <tr>
                         <td>32</td>
-                        <td>Week 9</td>
+                        <td>Week9</td>
                     </tr>
                     <tr>
-                        <td>30</td>
-                        <td>Week 1</td>
+                        <td>31</td>
+                        <td>Week13</td>
                     </tr>
                 </table>
                 <table className="right-table" id="scores">
+                      <tr>
+                        <td>30</td>
+                        <td>Week1</td>
+                    </tr>
                     <tr>
                         <td>29</td>
-                        <td>Week 8</td>
+                        <td>Week8</td>
                     </tr>
                     <tr>
                         <td>25</td>
-                        <td>Week 7</td>
-                    </tr>
-
-                    <tr>
-                        <td>  </td>
-                        <td>      </td>
+                        <td>Week7</td>
                     </tr>
                     <tr>
                         <td>  </td>

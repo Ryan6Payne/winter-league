@@ -14,33 +14,33 @@ function Jeremy(props){
                 <table id="scores">
                     <tr>
                         <td>34</td>
-                        <td>Week 1</td>
+                        <td>Week1</td>
                     </tr>
                     <tr>
                         <td>31</td>
-                        <td>Week 2</td>
+                        <td>Week2</td>
                     </tr>
                     <tr>
                         <td>28</td>
-                        <td>Week 6</td>
+                        <td>Week6</td>
                     </tr>
                     <tr>
                         <td>27</td>
-                        <td>Week 5</td>
+                        <td>Week5</td>
                     </tr>
                     <tr>
                         <td>27</td>
-                        <td>Week 7</td>
+                        <td>Week7</td>
                     </tr>
                     <tr>
                         <td>25</td>
-                        <td>Week 4</td>
+                        <td>Week4</td>
                     </tr>
                 </table>
                 <table className="right-table" id="scores">
                     <tr>
                         <td>24</td>
-                        <td>Week 8</td>
+                        <td>Week8</td>
                     </tr>
                     <tr>
                         <td>  </td>
