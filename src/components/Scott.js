@@ -5,13 +5,12 @@ function Scott(props){
                 <h5>Scott</h5>
             </div>
             <div>
-                <p className="tpoints">Total points: 323</p>
-                <p className="avg-points">Average: 32.3</p>
+                <p className="tpoints">Total points: 359</p>
+                <p className="avg-points">Average: 32.64</p>
             </div>
             <div>
                 <div className="tables-container">
                     <table id="scores">
-                        
                         <tr>
                             <td>42</td>
                             <td>Week1</td>
@@ -25,6 +24,10 @@ function Scott(props){
                             <td>Week5</td>
                         </tr>
                         <tr>
+                            <td>36</td>
+                            <td>Week14</td>
+                        </tr>
+                        <tr>
                             <td>35</td>
                             <td>Week8</td>
                         </tr>
@@ -32,12 +35,12 @@ function Scott(props){
                             <td>34</td>
                             <td>Week2</td>
                         </tr>
+                    </table>
+                    <table className="right-table" id="scores">
                         <tr>
                             <td>33</td>
                             <td>Week13</td>
                         </tr>
-                    </table>
-                    <table className="right-table" id="scores">
                         <tr>
                             <td>31</td>
                             <td>Week3</td>
@@ -54,10 +57,7 @@ function Scott(props){
                             <td>23</td>
                             <td>Week7</td>
                         </tr>
-                        <tr>
-                            <td>  </td>
-                            <td>      </td>
-                        </tr>
+
                         <tr>
                             <td>  </td>
                             <td>      </td>
