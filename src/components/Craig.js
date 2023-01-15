@@ -5,8 +5,8 @@ function Craig(props){
                 <h5>Craig</h5>
             </div>
             <div>
-                <p className="tpoints">Total points: 362</p>
-                <p className="avg-points">Average: 32.91</p>
+                <p className="tpoints">Total points: 397</p>
+                <p className="avg-points">Average: 33.1</p>
             </div>
             <div>
             <div className="tables-container">
@@ -28,15 +28,19 @@ function Craig(props){
                         <td>Week13</td>
                     </tr>
                     <tr>
+                        <td>35</td>
+                        <td>Week15</td>
+                    </tr>
+                    <tr>
                         <td>34</td>
                         <td>Week1</td>
                     </tr>
+                </table>
+                <table className="right-table" id="scores">
                     <tr>
                         <td>34</td>
                         <td>Week3</td>
                     </tr>
-                </table>
-                <table className="right-table" id="scores">
                     <tr>
                         <td>33</td>
                         <td>Week2</td>
@@ -56,12 +60,6 @@ function Craig(props){
                     <tr>
                         <td>23</td>
                         <td>Week9</td>
-                    </tr>
-
-
-                    <tr>
-                        <td>  </td>
-                        <td>       </td>
                     </tr>
                 </table>
             </div>
