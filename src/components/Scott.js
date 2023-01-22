@@ -1,12 +1,12 @@
 function Scott(props){
     return(
-        <div className="player-card silver">
+        <div className="player-card bronze">
             <div className="col-sm name">
                 <h5>Scott</h5>
             </div>
             <div>
-                <p className="tpoints">Total points: 393</p>
-                <p className="avg-points">Average: 32.75</p>
+                <p className="tpoints">Total points: 403</p>
+                <p className="avg-points">Average: 33.58</p>
             </div>
             <div>
                 <div className="tables-container">
@@ -46,6 +46,10 @@ function Scott(props){
                             <td>Week13</td>
                         </tr>
                         <tr>
+                            <td>33</td>
+                            <td>Week16</td>
+                        </tr>
+                        <tr>
                             <td>31</td>
                             <td>Week3</td>
                         </tr>
@@ -56,10 +60,6 @@ function Scott(props){
                         <tr>
                             <td>25</td>
                             <td>Week6</td>
-                        </tr>
-                        <tr>
-                            <td>23</td>
-                            <td>Week7</td>
                         </tr>
                     </table>
                 </div>
