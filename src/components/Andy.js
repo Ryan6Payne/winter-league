@@ -5,12 +5,16 @@ function Andy(){
                 <h5>Andy</h5>
             </div>
             <div>
-                <p className="tpoints">Total points: 382</p>
-                <p className="avg-points">Average: 31.83</p>
+                <p className="tpoints">Total points: 398</p>
+                <p className="avg-points">Average: 33.17</p>
             </div>
             <div>
             <div className="tables-container">
                 <table id="scores">
+                    <tr>
+                        <td>39</td>
+                        <td>Week20</td>
+                    </tr>
                     <tr>
                         <td>36</td>
                         <td>Week14</td>
@@ -31,12 +35,12 @@ function Andy(){
                         <td>34</td>
                         <td>Week6</td>
                     </tr>
+                </table>
+                <table className="right-table" id="scores">
                     <tr>
                         <td>34</td>
                         <td>Week16</td>
                     </tr>
-                </table>
-                <table className="right-table" id="scores">
                     <tr>
                         <td>33</td>
                         <td>Week13</td>
@@ -56,10 +60,6 @@ function Andy(){
                     <tr>
                         <td>28</td>
                         <td>Week5</td>
-                    </tr>
-                    <tr>
-                        <td>23</td>
-                        <td>Week7</td>
                     </tr>
                 </table>
             </div>

@@ -5,12 +5,16 @@ function Mike(){
                 <h5>Mike</h5>
             </div>
             <div>
-                <p className="tpoints">Total points: 309</p>
-                <p className="avg-points">Average: 30.9</p>
+                <p className="tpoints">Total points: 350</p>
+                <p className="avg-points">Average: 31.82</p>
             </div>
             <div>
             <div className="tables-container">
                 <table id="scores">
+                    <tr>
+                        <td>41</td>
+                        <td>Week20</td>
+                    </tr>
                     <tr>
                         <td>39</td>
                         <td>Week19</td>
@@ -31,12 +35,12 @@ function Mike(){
                         <td>32</td>
                         <td>Week14</td>
                     </tr>
+                </table>
+                <table className="right-table" id="scores">
                     <tr>
                         <td>28</td>
                         <td>Week13</td>
                     </tr>
-                </table>
-                <table className="right-table" id="scores">
                     <tr>
                         <td>27</td>
                         <td>Week6</td>
@@ -52,10 +56,6 @@ function Mike(){
                     <tr>
                         <td>24</td>
                         <td>Week8</td>
-                    </tr>
-                    <tr>
-                        <td>  </td>
-                        <td>      </td>
                     </tr>
                     <tr>
                         <td>  </td>
