@@ -13,7 +13,7 @@ function Craig(props){
                 <table id="scores">
                     <tr>
                         <td>41</td>
-                        <td>Week122</td>
+                        <td>Week22</td>
                     </tr>
                     <tr>
                         <td>40</td>
