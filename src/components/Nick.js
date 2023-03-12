@@ -6,8 +6,8 @@ function Nick(props){
                 <h5>Nick</h5>
             </div>
             <div>
-                <p className="tpoints">Total points: 399</p>
-                <p className="avg-points">Average: 33.25</p>
+                <p className="tpoints">Total points: 404</p>
+                <p className="avg-points">Average: 33.67</p>
             </div>
             <div>
             <div className="tables-container">
@@ -33,11 +33,15 @@ function Nick(props){
                         <td>Week5</td>
                     </tr>
                     <tr>
-                        <td>33</td>
-                        <td>Week4</td>
+                        <td>34</td>
+                        <td>Week23</td>
                     </tr>
                 </table>
                 <table className="right-table" id="scores">
+                    <tr>
+                        <td>33</td>
+                        <td>Week4</td>
+                    </tr>
                     <tr>
                         <td>33</td>
                         <td>Week18</td>
@@ -57,10 +61,6 @@ function Nick(props){
                     <tr>
                         <td>29</td>
                         <td>Week8</td>
-                    </tr>
-                    <tr>
-                        <td>25</td>
-                        <td>Week7</td>
                     </tr>
                 </table>
             </div>
