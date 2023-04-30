@@ -11,6 +11,7 @@ function Scott(props){
             <div>
                 <div className="tables-container">
                     <table id="scores">
+                    <tbody>
                         <tr>
                             <td>42</td>
                             <td>Week1</td>
@@ -35,8 +36,10 @@ function Scott(props){
                             <td>36</td>
                             <td>Week14</td>
                         </tr>
+                        </tbody>
                     </table>
                     <table className="right-table" id="scores">
+                    <tbody>
                         <tr>
                             <td>36</td>
                             <td>Week22</td>
@@ -61,6 +64,7 @@ function Scott(props){
                             <td>33</td>
                             <td>Week13</td>
                         </tr>
+                        </tbody>
                     </table>
                 </div>
             </div>

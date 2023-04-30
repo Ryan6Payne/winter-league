@@ -11,6 +11,7 @@ function Andy(){
             <div>
             <div className="tables-container">
                 <table id="scores">
+                <tbody>
                     <tr>
                         <td>41</td>
                         <td>Week22</td>
@@ -35,8 +36,10 @@ function Andy(){
                         <td>36</td>
                         <td>Week15</td>
                     </tr>
+                    </tbody>
                 </table>
                 <table className="right-table" id="scores">
+                <tbody>
                     <tr>
                         <td>36</td>
                         <td>Week19</td>
@@ -61,6 +64,7 @@ function Andy(){
                         <td>31</td>
                         <td>Week8</td>
                     </tr>
+                    </tbody>
                 </table>
             </div>
         </div>

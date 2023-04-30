@@ -6,7 +6,6 @@ import Andy from "./Andy";
 import Mike from "./Mike";
 import Nick from "./Nick";
 import Craig from "./Craig";
-import Blank from "./Blank";
 import '../App.css'
 
 function Center(){
@@ -44,12 +43,6 @@ function Center(){
                         <div className="col-sm">
                             <Information/>
                         </div>
-                        {/* <div className="col-sm">
-                            <Blank/>
-                        </div>
-                        <div className="col-sm">
-                            <Blank/>
-                        </div> */}
                     </div>
                 </div>
             </div>

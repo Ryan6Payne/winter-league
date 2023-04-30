@@ -11,6 +11,7 @@ function Craig(props){
             <div>
             <div className="tables-container">
                 <table id="scores">
+                <tbody>
                     <tr>
                         <td>41</td>
                         <td>Week22</td>
@@ -35,8 +36,10 @@ function Craig(props){
                         <td>37</td>
                         <td>Week16</td>
                     </tr>
+                    </tbody>
                 </table>
                 <table className="right-table" id="scores">
+                <tbody>
                     <tr>
                         <td>36</td>
                         <td>Week13</td>
@@ -61,6 +64,7 @@ function Craig(props){
                         <td>33</td>
                         <td>Week2</td>
                     </tr>
+                    </tbody>
                 </table>
             </div>
         </div>

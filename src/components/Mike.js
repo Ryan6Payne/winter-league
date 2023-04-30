@@ -11,6 +11,7 @@ function Mike(){
             <div>
             <div className="tables-container">
                 <table id="scores">
+                <tbody>
                     <tr>
                         <td>41</td>
                         <td>Week20</td>
@@ -35,8 +36,10 @@ function Mike(){
                         <td>34</td>
                         <td>Week1</td>
                     </tr>
+                    </tbody>
                 </table>
                 <table className="right-table" id="scores">
+                <tbody>
                     <tr>
                         <td>32</td>
                         <td>Week14</td>
@@ -61,6 +64,7 @@ function Mike(){
                         <td>24</td>
                         <td>Week8</td>
                     </tr>
+                    </tbody>
                 </table>
             </div>
         </div>
