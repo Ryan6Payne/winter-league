@@ -27,8 +27,8 @@ jobs:
           npm run build --if-present
           npm run test --if-present
 
-      - name: Zip artifact for deployment
-        run: Compress-Archive -path ./* -DestinationPath release.zip
+      - name: Zip all files for upload between jobs
+        run: zip release.zip ./* 
       
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
@@ -50,7 +50,7 @@ jobs:
           name: node-app
         
       - name: unzip artifact for deployment
-        run: Expand-Archive -Path release.zip -DestinationPath MyFolder
+         run: unzip release.zip
 
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
@@ -59,4 +59,7 @@ jobs:
           app-name: 'golfleague-webapp'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_49F8C235BB0E4AD0B15D3B699D54EE2D }}
-          package: .
+          package: release.zip
+
+      - name: Delete zip file
+      run: rm release.zip
