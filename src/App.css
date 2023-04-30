@@ -126,10 +126,12 @@ p {
 }
 
 .right-table{
-  border-left: 1px solid black;
+  border-left: 1px solid grey;
 }
 
-#scores tr:nth-child(even){background-color: #f2f2f2;}
+#scores tr:nth-child(even){
+  background-color: #f2f2f2;
+}
 
 /* #scores tr:nth-child(odd){background-color: #D0D0D0;} */
 
