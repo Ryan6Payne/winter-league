@@ -5,35 +5,35 @@ function App() {
   return (
     <div className="application">
       <main>
-        <div class="snowflakes" aria-hidden="true">
-          <div class="snowflake">
+        <div className="snowflakes" aria-hidden="true">
+          <div className="snowflake">
           ❅
           </div>
-          <div class="snowflake">
+          <div className="snowflake">
           ❅
           </div>
-          <div class="snowflake">
+          <div className="snowflake">
           ❆
           </div>
-          <div class="snowflake">
+          <div className="snowflake">
           ❄
           </div>
-          <div class="snowflake">
+          <div className="snowflake">
           ❅
           </div>
-          <div class="snowflake">
+          <div className="snowflake">
           ❆
           </div>
-          <div class="snowflake">
+          <div className="snowflake">
           ❄
           </div>
-          <div class="snowflake">
+          <div className="snowflake">
           ❅
           </div>
-          <div class="snowflake">
+          <div className="snowflake">
           ❆
           </div>
-          <div class="snowflake">
+          <div className="snowflake">
           ❄
           </div>
         </div>

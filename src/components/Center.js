@@ -12,15 +12,15 @@ import '../App.css'
 function Center(){
         return(
             <div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-sm">
                             <Ryan/>
                         </div>
                         <div className="col-sm">
                             <Craig/>
                         </div>
-                        <div class="col-sm">
+                        <div className="col-sm">
                             <Scott/>
                         </div>
                     </div>
