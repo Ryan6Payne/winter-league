@@ -1,19 +1,19 @@
-function Ryan(props){
+function Scott(props){
     return(
-        <div className="player-card silver">
+        <div className="player-card bronze">
             <div className="col-sm name">
-                <h5>Ryan</h5>
+                <h5>Joe</h5>
             </div>
             <div>
-                <p className="tpoints">Total points: 39</p>
-                <p className="avg-points">Average: 39</p>
+                <p className="tpoints">Total points: 34</p>
+                <p className="avg-points">Average: 34</p>
             </div>
             <div>
             <div className="tables-container">
                     <table id="scores">
                         <tbody>
                             <tr>
-                                <td>39</td>
+                                <td>34</td>
                                 <td>Week1</td>
                             </tr>
                             <tr>
@@ -72,4 +72,4 @@ function Ryan(props){
     )
 }
 
-export default Ryan
+export default Scott

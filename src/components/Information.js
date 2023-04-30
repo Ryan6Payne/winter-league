@@ -2,14 +2,14 @@ function Information(){
     return(
         <div className="information-card">
             <div>
-                <h5 className="information-header">Winter League 22/23</h5>
+                <h5 className="information-header">Summer League 2023</h5>
             </div>
             <div>
                 <p className="information-text">
-                    First place: £100
+                    First place: £120
                 </p>
                 <p className="information-text">
-                    Second place: £70
+                    Second place: £80
                 </p>
                 <p className="information-text">
                     Third place: £40

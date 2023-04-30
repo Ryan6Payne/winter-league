@@ -1,68 +1,68 @@
 function Scott(props){
     return(
-        <div className="player-card bronze">
+        <div className="player-card">
             <div className="col-sm name">
                 <h5>Scott</h5>
             </div>
             <div>
-                <p className="tpoints">Total points: 434</p>
-                <p className="avg-points">Average: 36.17</p>
+                <p className="tpoints">Total points: 30</p>
+                <p className="avg-points">Average: 30</p>
             </div>
             <div>
                 <div className="tables-container">
                     <table id="scores">
                     <tbody>
                         <tr>
-                            <td>42</td>
+                            <td>30</td>
                             <td>Week1</td>
                         </tr>
                         <tr>
-                            <td>40</td>
-                            <td>Week20</td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
-                            <td>37</td>
-                            <td>Week23</td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
-                            <td>36</td>
-                            <td>Week4</td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
-                            <td>36</td>
-                            <td>Week5</td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
-                            <td>36</td>
-                            <td>Week14</td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         </tbody>
                     </table>
                     <table className="right-table" id="scores">
                     <tbody>
                         <tr>
-                            <td>36</td>
-                            <td>Week22</td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
-                            <td>35</td>
-                            <td>Week8</td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
-                            <td>35</td>
-                            <td>Week21</td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
-                            <td>34</td>
-                            <td>Week2</td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
-                            <td>34</td>
-                            <td>Week15</td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
-                            <td>33</td>
-                            <td>Week13</td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         </tbody>
                     </table>

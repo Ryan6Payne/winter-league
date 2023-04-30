@@ -5,64 +5,64 @@ function Mike(){
                 <h5>Mike</h5>
             </div>
             <div>
-                <p className="tpoints">Total points: 387</p>
-                <p className="avg-points">Average: 32.25</p>
+                <p className="tpoints">Total points: 29</p>
+                <p className="avg-points">Average: 29</p>
             </div>
             <div>
             <div className="tables-container">
                 <table id="scores">
                 <tbody>
                     <tr>
-                        <td>41</td>
-                        <td>Week20</td>
-                    </tr>
-                    <tr>
-                        <td>39</td>
-                        <td>Week19</td>
-                    </tr>
-                    <tr>
-                        <td>37</td>
-                        <td>Week18</td>
-                    </tr>
-                    <tr>
-                        <td>37</td>
-                        <td>Week23</td>
-                    </tr>
-                    <tr>
-                        <td>36</td>
-                        <td>Week7</td>
-                    </tr>
-                    <tr>
-                        <td>34</td>
+                        <td>29</td>
                         <td>Week1</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
                     </tr>
                     </tbody>
                 </table>
                 <table className="right-table" id="scores">
                 <tbody>
                     <tr>
-                        <td>32</td>
-                        <td>Week14</td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td>28</td>
-                        <td>Week13</td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td>27</td>
-                        <td>Week6</td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td>26</td>
-                        <td>Week4</td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td>26</td>
-                        <td>Week16</td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td>24</td>
-                        <td>Week8</td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     </tbody>
                 </table>
