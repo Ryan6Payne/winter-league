@@ -6,20 +6,20 @@ function Jeremy(props){
                 <h5>Jeremy</h5>
             </div>
             <div>
-                <p className="tpoints">Total points: 30</p>
-                <p className="avg-points">Average: 30</p>
+                <p className="tpoints">Total points: 61</p>
+                <p className="avg-points">Average: 30.5</p>
             </div>
             <div>
             <div className="tables-container">
                 <table id="scores">
                 <tbody>
                     <tr>
-                        <td>30</td>
-                        <td>Week1</td>
+                        <td>31</td>
+                        <td>Week5</td>
                     </tr>
                     <tr>
-                        <td></td>
-                        <td></td>
+                        <td>30</td>
+                        <td>Week1</td>
                     </tr>
                     <tr>
                         <td></td>
