@@ -13,12 +13,12 @@ function Mike(){
                 <table id="scores">
                 <tbody>
                     <tr>
-                        <td>29</td>
-                        <td>Week1</td>
-                    </tr>
-                    <tr>
                         <td>33</td>
                         <td>Week3</td>
+                    </tr>
+                    <tr>
+                        <td>29</td>
+                        <td>Week1</td>
                     </tr>
                     <tr>
                         <td></td>
