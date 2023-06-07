@@ -1,6 +1,6 @@
 function Andy(){
     return(
-        <div className="player-card gold">
+        <div className="player-card">
             <div className="col-sm name">
                 <h5>Andy</h5>
             </div>

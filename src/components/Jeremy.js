@@ -6,13 +6,17 @@ function Jeremy(props){
                 <h5>Jeremy</h5>
             </div>
             <div>
-                <p className="tpoints">Total points: 61</p>
-                <p className="avg-points">Average: 30.5</p>
+                <p className="tpoints">Total points: 93</p>
+                <p className="avg-points">Average: 31</p>
             </div>
             <div>
             <div className="tables-container">
                 <table id="scores">
                 <tbody>
+                    <tr>
+                        <td>32</td>
+                        <td>Week6</td>
+                    </tr>
                     <tr>
                         <td>31</td>
                         <td>Week5</td>
@@ -20,10 +24,6 @@ function Jeremy(props){
                     <tr>
                         <td>30</td>
                         <td>Week1</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
                     </tr>
                     <tr>
                         <td></td>
