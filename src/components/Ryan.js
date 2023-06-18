@@ -5,8 +5,8 @@ function Ryan(props){
                 <h5>Ryan</h5>
             </div>
             <div>
-                <p className="tpoints">Total points: 132</p>
-                <p className="avg-points">Average: 33</p>
+                <p className="tpoints">Total points: 163</p>
+                <p className="avg-points">Average: 32.6</p>
             </div>
             <div>
             <div className="tables-container">
@@ -21,16 +21,16 @@ function Ryan(props){
                                 <td>Week6</td>
                             </tr>
                             <tr>
+                                <td>31</td>
+                                <td>Week8</td>
+                            </tr>
+                            <tr>
                                 <td>30</td>
                                 <td>Week7</td>
                             </tr>
                             <tr>
                                 <td>29</td>
                                 <td>Week3</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
                             </tr>
                             <tr>
                                 <td></td>
