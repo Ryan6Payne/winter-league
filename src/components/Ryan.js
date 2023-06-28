@@ -1,12 +1,12 @@
 function Ryan(props){
     return(
-        <div className="player-card silver">
+        <div className="player-card gold">
             <div className="col-sm name">
                 <h5>Ryan</h5>
             </div>
             <div>
-                <p className="tpoints">Total points: 163</p>
-                <p className="avg-points">Average: 32.6</p>
+                <p className="tpoints">Total points: 200</p>
+                <p className="avg-points">Average: 33.3</p>
             </div>
             <div>
             <div className="tables-container">
@@ -15,6 +15,10 @@ function Ryan(props){
                             <tr>
                                 <td>39</td>
                                 <td>Week1</td>
+                            </tr>
+                            <tr>
+                                <td>37</td>
+                                <td>Week9</td>
                             </tr>
                             <tr>
                                 <td>34</td>
@@ -31,10 +35,6 @@ function Ryan(props){
                             <tr>
                                 <td>29</td>
                                 <td>Week3</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
                             </tr>
                         </tbody>
                     </table>

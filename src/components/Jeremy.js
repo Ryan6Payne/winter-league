@@ -1,13 +1,13 @@
 function Jeremy(props){
 
     return(
-        <div className="player-card gold">
+        <div className="player-card silver">
             <div className="col-sm name">
                 <h5>Jeremy</h5>
             </div>
             <div>
-                <p className="tpoints">Total points: 164</p>
-                <p className="avg-points">Average: 32.8</p>
+                <p className="tpoints">Total points: 199</p>
+                <p className="avg-points">Average: 33.17</p>
             </div>
             <div>
             <div className="tables-container">
@@ -16,6 +16,10 @@ function Jeremy(props){
                     <tr>
                         <td>37</td>
                         <td>Week7</td>
+                    </tr>
+                    <tr>
+                        <td>35</td>
+                        <td>Week9</td>
                     </tr>
                     <tr>
                         <td>34</td>
@@ -32,10 +36,6 @@ function Jeremy(props){
                     <tr>
                         <td>30</td>
                         <td>Week1</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
                     </tr>
                     </tbody>
                 </table>
