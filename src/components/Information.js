@@ -14,6 +14,9 @@ function Information(){
                 <p className="information-text">
                     3rd place: £40
                 </p>
+                <p className="information-text-weeks-remaining">
+                    13 weeks remain!
+                </p>
             </div>
         </div>
     )
