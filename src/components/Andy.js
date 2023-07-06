@@ -5,7 +5,7 @@ function Andy(){
                 <h5>Andy</h5>
             </div>
             <div>
-                <p className="tpoints">Total points: 76</p>
+                <p className="tpoints">Total points: 114</p>
                 <p className="avg-points">Average: 38</p>
             </div>
             <div>
@@ -17,12 +17,12 @@ function Andy(){
                         <td>Week1</td>
                     </tr>
                     <tr>
-                        <td>36</td>
-                        <td>Week5</td>
+                        <td>38</td>
+                        <td>Week10</td>
                     </tr>
                     <tr>
-                        <td></td>
-                        <td></td>
+                        <td>36</td>
+                        <td>Week5</td>
                     </tr>
                     <tr>
                         <td></td>
