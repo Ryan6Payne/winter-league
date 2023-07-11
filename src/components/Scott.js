@@ -1,6 +1,6 @@
 function Scott(props){
     return(
-        <div className="player-card bronze">
+        <div className="player-card">
             <div className="col-sm name">
                 <h5>Scott</h5>
             </div>

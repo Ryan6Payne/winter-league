@@ -5,8 +5,8 @@ function Andy(){
                 <h5>Andy</h5>
             </div>
             <div>
-                <p className="tpoints">Total points: 114</p>
-                <p className="avg-points">Average: 38</p>
+                <p className="tpoints">Total points: 153</p>
+                <p className="avg-points">Average: 38.25</p>
             </div>
             <div>
             <div className="tables-container">
@@ -17,16 +17,16 @@ function Andy(){
                         <td>Week1</td>
                     </tr>
                     <tr>
+                        <td>39</td>
+                        <td>Week11</td>
+                    </tr>
+                    <tr>
                         <td>38</td>
                         <td>Week10</td>
                     </tr>
                     <tr>
                         <td>36</td>
                         <td>Week5</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
                     </tr>
                     <tr>
                         <td></td>
