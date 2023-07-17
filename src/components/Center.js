@@ -18,10 +18,10 @@ function Center(){
                             <Jeremy/>
                         </div>
                         <div className="col-sm">
-                            <Ryan/>
+                            <Nick/>
                         </div>
                         <div className="col-sm">
-                            <Nick/>
+                            <Ryan/>
                         </div>
                     </div>
 
@@ -39,10 +39,10 @@ function Center(){
                     
                     <div className="row">
                         <div className="col-sm">
-                            <Mike/>
+                            <Andy/>
                         </div>
                         <div className="col-sm">
-                            <Andy/>
+                            <Mike/>
                         </div>
                         <div className="col-sm">
                             <Information/>
