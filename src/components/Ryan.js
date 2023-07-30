@@ -1,12 +1,12 @@
 function Ryan(props){
     return(
-        <div className="player-card bronze">
+        <div className="player-card silver">
             <div className="col-sm name">
                 <h5>Ryan</h5>
             </div>
             <div>
-                <p className="tpoints">Total points: 259</p>
-                <p className="avg-points">Average: 32.38</p>
+                <p className="tpoints">Total points: 296</p>
+                <p className="avg-points">Average: 32.89</p>
             </div>
             <div>
             <div className="tables-container">
@@ -21,6 +21,10 @@ function Ryan(props){
                                 <td>Week9</td>
                             </tr>
                             <tr>
+                                <td>37</td>
+                                <td>Week14</td>
+                            </tr>
+                            <tr>
                                 <td>34</td>
                                 <td>Week6</td>
                             </tr>
@@ -32,14 +36,14 @@ function Ryan(props){
                                 <td>31</td>
                                 <td>Week10</td>
                             </tr>
-                            <tr>
-                                <td>30</td>
-                                <td>Week7</td>
-                            </tr>
                         </tbody>
                     </table>
                     <table className="right-table" id="scores">
                         <tbody>
+                            <tr>
+                                <td>30</td>
+                                <td>Week7</td>
+                            </tr>
                             <tr>
                                 <td>29</td>
                                 <td>Week3</td>
@@ -47,10 +51,6 @@ function Ryan(props){
                             <tr>
                                 <td>28</td>
                                 <td>Week12</td>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td></td>
                             </tr>
                             <tr>
                                 <td></td>
