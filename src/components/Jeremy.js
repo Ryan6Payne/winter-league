@@ -1,7 +1,7 @@
 function Jeremy(props){
 
     return(
-        <div className="player-card gold">
+        <div className="player-card silver">
             <div className="col-sm name">
                 <h5>Jeremy</h5>
             </div>

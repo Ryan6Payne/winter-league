@@ -5,8 +5,8 @@ function Scott(props){
                 <h5>Scott</h5>
             </div>
             <div>
-                <p className="tpoints">Total points: 290</p>
-                <p className="avg-points">Average: 32.22</p>
+                <p className="tpoints">Total points: 325</p>
+                <p className="avg-points">Average: 32.5</p>
             </div>
             <div>
                 <div className="tables-container">
@@ -21,6 +21,10 @@ function Scott(props){
                             <td>Week16</td>
                         </tr>
                         <tr>
+                            <td>35</td>
+                            <td>Week17</td>
+                        </tr>
+                        <tr>
                             <td>34</td>
                             <td>Week6</td>
                         </tr>
@@ -32,15 +36,14 @@ function Scott(props){
                             <td>32</td>
                             <td>Week7</td>
                         </tr>
-                        <tr>
-                            <td>30</td>
-                            <td>Week1</td>
-                        </tr>
-
                         </tbody>
                     </table>
                     <table className="right-table" id="scores">
                     <tbody>
+                        <tr>
+                            <td>30</td>
+                            <td>Week1</td>
+                        </tr>
                         <tr>
                             <td>30</td>
                             <td>Week12</td>
@@ -52,10 +55,6 @@ function Scott(props){
                         <tr>
                             <td>24</td>
                             <td>Week5</td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
                         </tr>
                         <tr>
                             <td></td>
