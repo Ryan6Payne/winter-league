@@ -27,10 +27,10 @@ function Center(){
 
                     <div className="row">
                         <div className="col-sm">
-                            <Nick/>
+                            <Scott/>
                         </div>
                         <div className="col-sm">
-                            <Scott/>
+                            <Nick/>
                         </div>
                         <div className="col-sm">
                             <Andy/>

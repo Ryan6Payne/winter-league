@@ -1,12 +1,14 @@
 function Craig(props){
+    const points = 384;
+    const average = points / 12;
     return(
         <div className="player-card bronze">
             <div className="name">
                 <h5>Craig</h5>
             </div>
             <div>
-                <p className="tpoints">Total points: 352</p>
-                <p className="avg-points">Average: 32</p>
+                <p className="tpoints">Total points: {points}</p>
+                <p className="avg-points">Average: {average.toFixed(2)}</p>
             </div>
             <div>
             <div className="tables-container">
@@ -45,6 +47,10 @@ function Craig(props){
                         <td>Week14</td>
                     </tr>
                     <tr>
+                        <td>32</td>
+                        <td>Week18</td>
+                    </tr>
+                    <tr>
                         <td>31</td>
                         <td>Week10</td>
                     </tr>
@@ -59,10 +65,6 @@ function Craig(props){
                     <tr>
                         <td>27</td>
                         <td>Week7</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
                     </tr>
                     </tbody>
                 </table>
