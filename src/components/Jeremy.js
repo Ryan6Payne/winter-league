@@ -2,7 +2,7 @@ function Jeremy(props){
     const points = 387;
     const average = points / 12;
     return(
-        <div className="player-card silver">
+        <div className="player-card">
             <div className="col-sm name">
                 <h5>Jeremy</h5>
             </div>

@@ -1,13 +1,14 @@
 function Nick(props){
-    
+    const points = 357;
+    const average = points / 12;
     return(
         <div className="player-card">
             <div className="col-sm name">
                 <h5>Nick</h5>
             </div>
             <div>
-                <p className="tpoints">Total points: 337</p>
-                <p className="avg-points">Average: 30.64</p>
+            <p className="tpoints">Total points: {points}</p>
+                <p className="avg-points">Average: {average.toFixed(2)}</p>
             </div>
             <div>
             <div className="tables-container">
@@ -62,8 +63,8 @@ function Nick(props){
                         <td>Week1</td>
                     </tr>
                     <tr>
-                        <td></td>
-                        <td></td>
+                        <td>20</td>
+                        <td>Week19</td>
                     </tr>
                     </tbody>
                 </table>

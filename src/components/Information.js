@@ -15,7 +15,7 @@ function Information(){
                     3rd place: £40
                 </p>
                 <h6 className="information-text-weeks-remaining">
-                    Ends Monday 16th October (8 rounds remain)
+                    Ends Monday 16th October (7 rounds remain)
                 </h6>
             </div>
         </div>
