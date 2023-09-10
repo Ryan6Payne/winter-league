@@ -1,5 +1,5 @@
 function Jeremy(props){
-    const points = 387;
+    const points = 395;
     const average = points / 12;
     return(
         <div className="player-card">
@@ -47,6 +47,10 @@ function Jeremy(props){
                         <td>Week6</td>
                     </tr>
                     <tr>
+                        <td>32</td>
+                        <td>Week20</td>
+                    </tr>
+                    <tr>
                         <td>31</td>
                         <td>Week5</td>
                     </tr>
@@ -61,10 +65,6 @@ function Jeremy(props){
                     <tr>
                         <td>30</td>
                         <td>Week14</td>
-                    </tr>
-                    <tr>
-                        <td>24</td>
-                        <td>Week16</td>
                     </tr>
                     </tbody>
                 </table>
