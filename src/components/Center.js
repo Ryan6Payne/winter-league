@@ -15,31 +15,31 @@ function Center(){
                 <div className="container">
                     <div className="row">
                         <div className="col-sm">
+                            <Andy/>
+                        </div>
+                        <div className="col-sm">
                             <Ryan/>
                         </div>
                         <div className="col-sm">
                             <Craig/>
                         </div>
-                        <div className="col-sm">
-                            <Scott/>
-                        </div>
                     </div>
 
                     <div className="row">
                         <div className="col-sm">
+                            <Scott/>
+                        </div>
+                        <div className="col-sm">
                             <Jeremy/>
                         </div>
                         <div className="col-sm">
-                            <Andy/>
-                        </div>
-                        <div className="col-sm">
-                            <Nick/>
+                            <Mike/>
                         </div>
                     </div>
                     
                     <div className="row">
                         <div className="col-sm">
-                            <Mike/>
+                            <Nick/>
                         </div>
                         <div className="col-sm">
                             <Joe/>

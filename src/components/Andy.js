@@ -1,8 +1,8 @@
 function Andy(){
-    const points = 390;
-    const average = points / 11;
+    const points = 432;
+    const average = points / 12;
     return(
-        <div className="player-card">
+        <div className="player-card gold">
             <div className="col-sm name">
                 <h5>Andy</h5>
             </div>
@@ -14,6 +14,10 @@ function Andy(){
             <div className="tables-container">
                 <table id="scores">
                 <tbody>
+                    <tr>
+                        <td>42</td>
+                        <td>Week21</td>
+                    </tr>
                     <tr>
                         <td>40</td>
                         <td>Week1</td>
@@ -34,14 +38,14 @@ function Andy(){
                         <td>36</td>
                         <td>Week14</td>
                     </tr>
-                    <tr>
-                        <td>36</td>
-                        <td>Week20</td>
-                    </tr>
                     </tbody>
                 </table>
                 <table className="right-table" id="scores">
                 <tbody>
+                    <tr>
+                        <td>36</td>
+                        <td>Week20</td>
+                    </tr>
                     <tr>
                         <td>35</td>
                         <td>Week16</td>
@@ -61,10 +65,6 @@ function Andy(){
                     <tr>
                         <td>30</td>
                         <td>Week12</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
                     </tr>
                     </tbody>
                 </table>
