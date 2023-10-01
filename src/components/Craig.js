@@ -2,7 +2,7 @@ function Craig(props){
     const points = 417;
     const average = points / 12;
     return(
-        <div className="player-card silver">
+        <div className="player-card bronze">
             <div className="name">
                 <h5>Craig</h5>
             </div>

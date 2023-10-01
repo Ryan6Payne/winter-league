@@ -1,5 +1,5 @@
 function Scott(props){
-    const points = 380;
+    const points = 386;
     const average = points / 12;
     return(
         <div className="player-card">
@@ -59,12 +59,12 @@ function Scott(props){
                                 <td>Week12</td>
                             </tr>
                             <tr>
-                                <td>26</td>
-                                <td>Week10</td>
+                                <td>27</td>
+                                <td>Week22</td>
                             </tr>
                             <tr>
-                                <td>21</td>
-                                <td>Week9</td>
+                                <td>26</td>
+                                <td>Week10</td>
                             </tr>
                         </tbody>
                     </table>
