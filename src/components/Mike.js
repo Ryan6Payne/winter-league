@@ -1,5 +1,5 @@
 function Mike(){
-    const points = 385;
+    const points = 392;
     const average = points / 12;
     return(
         <div className="player-card mike">
@@ -43,6 +43,10 @@ function Mike(){
                 <table className="right-table" id="scores">
                 <tbody>
                     <tr>
+                        <td>32</td>
+                        <td>Week23</td>
+                    </tr>
+                    <tr>
                         <td>31</td>
                         <td>Week17</td>
                     </tr>
@@ -61,10 +65,6 @@ function Mike(){
                     <tr>
                         <td>28</td>
                         <td>Week6</td>
-                    </tr>
-                    <tr>
-                        <td>25</td>
-                        <td>Week10</td>
                     </tr>
                     </tbody>
                 </table>

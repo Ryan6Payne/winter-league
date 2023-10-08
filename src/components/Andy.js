@@ -1,5 +1,5 @@
 function Andy(){
-    const points = 440;
+    const points = 441;
     const average = points / 12;
     return(
         <div className="player-card gold">
@@ -59,12 +59,12 @@ function Andy(){
                         <td>Week19</td>
                     </tr>
                     <tr>
-                        <td>33</td>
-                        <td>Week17</td>
+                        <td>34</td>
+                        <td>Week23</td>
                     </tr>
                     <tr>
                         <td>33</td>
-                        <td>Week18</td>
+                        <td>Week17</td>
                     </tr>
                     </tbody>
                 </table>

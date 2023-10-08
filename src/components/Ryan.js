@@ -1,8 +1,8 @@
 function Ryan(props){
-    const points = 418;
+    const points = 422;
     const average = points / 12;
     return(
-        <div className="player-card silver">
+        <div className="player-card bronze">
             <div className="col-sm name">
                 <h5>Ryan</h5>
             </div>
@@ -47,6 +47,10 @@ function Ryan(props){
                                 <td>Week22</td>
                             </tr>
                             <tr>
+                                <td>35</td>
+                                <td>Week23</td>
+                            </tr>
+                            <tr>
                                 <td>34</td>
                                 <td>Week6</td>
                             </tr>
@@ -61,10 +65,6 @@ function Ryan(props){
                             <tr>
                                 <td>31</td>
                                 <td>Week8</td>
-                            </tr>
-                            <tr>
-                                <td>31</td>
-                                <td>Week10</td>
                             </tr>
                         </tbody>
                     </table>

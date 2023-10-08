@@ -1,5 +1,5 @@
 function Nick(props){
-    const points = 380;
+    const points = 392;
     const average = points / 12;
     return(
         <div className="player-card">
@@ -27,6 +27,10 @@ function Nick(props){
                         <td>Week6</td>
                     </tr>
                     <tr>
+                        <td>34</td>
+                        <td>Week23</td>
+                    </tr>
+                    <tr>
                         <td>33</td>
                         <td>Week20</td>
                     </tr>
@@ -34,14 +38,14 @@ function Nick(props){
                         <td>31</td>
                         <td>Week3</td>
                     </tr>
-                    <tr>
-                        <td>31</td>
-                        <td>Week10</td>
-                    </tr>
                     </tbody>
                 </table>
                 <table className="right-table" id="scores">
                 <tbody>
+                    <tr>
+                        <td>31</td>
+                        <td>Week10</td>
+                    </tr>
                     <tr>
                         <td>31</td>
                         <td>Week12</td>
@@ -61,10 +65,6 @@ function Nick(props){
                     <tr>
                         <td>26</td>
                         <td>Week17</td>
-                    </tr>
-                    <tr>
-                        <td>22</td>
-                        <td>Week16</td>
                     </tr>
                     </tbody>
                 </table>
