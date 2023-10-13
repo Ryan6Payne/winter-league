@@ -1,5 +1,5 @@
-function Information(){
-    return(
+function Information() {
+    return (
         <div className="information-card">
             <div>
                 <h5 className="information-header">Summer League 2023</h5>
@@ -15,7 +15,7 @@ function Information(){
                     3rd place: £40
                 </p>
                 <h6 className="information-text-weeks-remaining">
-                    Ends Monday 16th October (2 rounds remain)
+                    Ends Monday 16th October (2 rounds remain TEST)
                 </h6>
             </div>
         </div>
