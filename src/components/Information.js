@@ -2,7 +2,7 @@ function Information(){
     return(
         <div className="information-card">
             <div>
-                <h5 className="information-header">Summer League 2023</h5>
+                <h5 className="information-header">Winter League 23/24</h5>
             </div>
             <div>
                 <p className="information-text">
@@ -15,7 +15,7 @@ function Information(){
                     3rd place: £40
                 </p>
                 <h6 className="information-text-weeks-remaining">
-                    Ends Monday 16th October (2 rounds remain)
+                    Ends Monday 31st March (20 Weeks Remain)
                 </h6>
             </div>
         </div>

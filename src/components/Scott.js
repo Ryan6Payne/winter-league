@@ -1,5 +1,5 @@
 function Scott(props){
-    const points = 420;
+    const points = 0;
     const average = points / 12;
     return(
         <div className="player-card">
@@ -15,56 +15,56 @@ function Scott(props){
                     <table id="scores">
                     <tbody>
                         <tr>
-                            <td>41</td>
-                            <td>Week8</td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
-                            <td>38</td>
-                            <td>Week16</td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
-                            <td>38</td>
-                            <td>Week19</td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
-                            <td>36</td>
-                            <td>Week22</td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
-                            <td>35</td>
-                            <td>Week17</td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
-                            <td>34</td>
-                            <td>Week6</td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         </tbody>
                     </table>
                     <table className="right-table" id="scores">
                     <tbody>
                         <tr>
-                            <td>34</td>
-                            <td>Week18</td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
-                            <td>34</td>
-                            <td>Week21</td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
-                            <td>33</td>
-                            <td>Week10</td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
-                            <td>33</td>
-                            <td>Week22</td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
-                            <td>32</td>
-                            <td>Week7</td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
-                            <td>32</td>
-                            <td>Week23</td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         </tbody>
                     </table>

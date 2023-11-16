@@ -1,8 +1,8 @@
 function Ryan(props){
-    const points = 422;
+    const points = 0;
     const average = points / 12;
     return(
-        <div className="player-card bronze">
+        <div className="player-card">
             <div className="col-sm name">
                 <h5>Ryan</h5>
             </div>
@@ -15,56 +15,56 @@ function Ryan(props){
                     <table id="scores">
                         <tbody>
                             <tr>
-                                <td>39</td>
-                                <td>Week1</td>
+                                <td></td>
+                                <td></td>
                             </tr>
                             <tr>
-                                <td>37</td>
-                                <td>Week9</td>
+                                <td></td>
+                                <td></td>
                             </tr>
                             <tr>
-                                <td>37</td>
-                                <td>Week14</td>
+                                <td></td>
+                                <td></td>
                             </tr>
                             <tr>
-                                <td>37</td>
-                                <td>Week19</td>
+                                <td></td>
+                                <td></td>
                             </tr>
                             <tr>
-                                <td>37</td>
-                                <td>Week20</td>
+                                <td></td>
+                                <td></td>
                             </tr>
                             <tr>
-                                <td>36</td>
-                                <td>Week18</td>
+                                <td></td>
+                                <td></td>
                             </tr>
                         </tbody>
                     </table>
                     <table className="right-table" id="scores">
                         <tbody>
                             <tr>
-                                <td>35</td>
-                                <td>Week22</td>
+                                <td></td>
+                                <td></td>
                             </tr>
                             <tr>
-                                <td>35</td>
-                                <td>Week23</td>
+                                <td></td>
+                                <td></td>
                             </tr>
                             <tr>
-                                <td>34</td>
-                                <td>Week6</td>
+                                <td></td>
+                                <td></td>
                             </tr>
                             <tr>
-                                <td>32</td>
-                                <td>Week16</td>
+                                <td></td>
+                                <td></td>
                             </tr>
                             <tr>
-                                <td>32</td>
-                                <td>Week22</td>
+                                <td></td>
+                                <td></td>
                             </tr>
                             <tr>
-                                <td>31</td>
-                                <td>Week8</td>
+                                <td></td>
+                                <td></td>
                             </tr>
                         </tbody>
                     </table>

@@ -1,5 +1,5 @@
 function Mike(){
-    const points = 392;
+    const points = 0;
     const average = points / 12;
     return(
         <div className="player-card mike">
@@ -14,57 +14,57 @@ function Mike(){
             <div className="tables-container">
                 <table id="scores">
                 <tbody>
-                    <tr>
-                        <td>41</td>
-                        <td>Week21</td>
+                <tr>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td>36</td>
-                        <td>Week20</td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td>35</td>
-                        <td>Week7</td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td>33</td>
-                        <td>Week3</td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td>33</td>
-                        <td>Week18</td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td>32</td>
-                        <td>Week14</td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     </tbody>
                 </table>
                 <table className="right-table" id="scores">
                 <tbody>
-                    <tr>
-                        <td>32</td>
-                        <td>Week23</td>
+                <tr>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td>31</td>
-                        <td>Week17</td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td>31</td>
-                        <td>Week19</td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td>31</td>
-                        <td>Week22</td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td>29</td>
-                        <td>Week1</td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td>28</td>
-                        <td>Week6</td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     </tbody>
                 </table>

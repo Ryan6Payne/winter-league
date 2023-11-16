@@ -1,8 +1,8 @@
 function Craig(props){
-    const points = 426;
+    const points = 0;
     const average = points / 12;
     return(
-        <div className="player-card silver">
+        <div className="player-card">
             <div className="name">
                 <h5>Craig</h5>
             </div>
@@ -15,56 +15,56 @@ function Craig(props){
                 <table id="scores">
                 <tbody>
                     <tr>
-                        <td>40</td>
-                        <td>Week23</td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td>38</td>
-                        <td>Week21</td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td>38</td>
-                        <td>Week22</td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td>37</td>
-                        <td>Week5</td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td>36</td>
-                        <td>Week12</td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td>36</td>
-                        <td>Week16</td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     </tbody>
                 </table>
                 <table className="right-table" id="scores">
                 <tbody>
-                    <tr>
-                        <td>36</td>
-                        <td>Week20</td>
+                <tr>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td>34</td>
-                        <td>Week19</td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td>33</td>
-                        <td>Week1</td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td>33</td>
-                        <td>Week11</td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td>33</td>
-                        <td>Week14</td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td>32</td>
-                        <td>Week18</td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     </tbody>
                 </table>
