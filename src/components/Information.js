@@ -1,5 +1,5 @@
-function Information(){
-    return(
+function Information() {
+    return (
         <div className="information-card">
             <div>
                 <h5 className="information-header">Winter League 23/24</h5>
