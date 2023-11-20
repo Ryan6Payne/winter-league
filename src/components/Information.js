@@ -14,9 +14,6 @@ function Information() {
                 <p className="information-text">
                     3rd place: £40
                 </p>
-                <h6 className="information-text-weeks-remaining">
-                    Ends Sunday 31st March (20 Weeks Remain)
-                </h6>
             </div>
         </div>
     )

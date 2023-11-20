@@ -62,7 +62,7 @@ p {
   margin-top: 10px;
   opacity: 0.8;
   width: 128px;
-  height: 193px;
+  height: 173px;
 }
 
 .information-header{
@@ -75,11 +75,11 @@ p {
 .information-text{
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 10px;
+  margin-top: 0px;
   margin-bottom: 10px;
   font-size: 13px;
   text-align: center;
-  
+  padding-top: 0px;
 }
 
 .information-text-weeks-remaining {
