@@ -13,7 +13,7 @@ function GolfPlayerCard({ playerName, golfScores, weeksPlayed, cardClass }) {
                     {golfScores.map((score, index) => (
                         <tr key={index}>
                             <td>{score.week}</td>
-                            <td>{score.score}</td>
+                            <td>{score.score === 0 ? "" : score.score}</td>
                         </tr>
                     ))}
                 </tbody>
