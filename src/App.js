@@ -147,7 +147,7 @@ const App = () => {
                     { week: '', score: 0 },
                     { week: '', score: 0 }
                   ]
-                } playerName="Joe" weeksPlayed={weeksPlayed} />
+                } playerName="Joe" weeksPlayed={1} />
               </div>
 
               <div className="col-sm">
