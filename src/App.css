@@ -85,11 +85,12 @@ p {
 .information-text-weeks-remaining {
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 10px;
+  margin-top: 0px;
   margin-bottom: 10px;
-  font-size: 11x;
-  font-weight: bold;
+  font-size: 13px;
   text-align: center;
+  padding-top: 0px;
+  font-weight: bold;
 }
 
 .row {
