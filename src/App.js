@@ -40,7 +40,7 @@ const App = () => {
                     { week: '', score: 0 },
                     { week: '', score: 0 }
                   ]
-                } playerName="Nick" weeksPlayed={6} cardClass={"silver"}/>
+                } playerName="Nick" weeksPlayed={7} cardClass={"silver"}/>
               </div>
               <div className="col-sm">
                 <GolfPlayerCard golfScores={
