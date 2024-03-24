@@ -15,7 +15,7 @@ function Information() {
                     3rd place: £40
                 </p>
                 <p className="information-text-weeks-remaining">
-                    3 Weeks Remain
+                    1 Week Remains
                 </p>
             </div>
         </div>

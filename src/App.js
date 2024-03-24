@@ -18,7 +18,7 @@ const App = () => {
                     { week: 'Week4', score: 31 },
                     { week: 'Week6', score: 36 },
                     { week: 'Week7.1', score: 39 },
-                    { week: 'Week7.2', score: 30 },
+                    { week: 'Week18', score: 32 },
                     { week: 'Week9', score: 33 },
                     { week: 'Week11', score: 35 },
                     { week: 'Week12', score: 33 },
