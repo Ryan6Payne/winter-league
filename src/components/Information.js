@@ -6,13 +6,13 @@ function Information() {
             </div>
             <div>
                 <p className="information-text">
-                    1st place: £120
+                    1st place: £85
                 </p>
                 <p className="information-text">
-                    2nd place: £80
+                    2nd place: £55
                 </p>
                 <p className="information-text">
-                    3rd place: £40
+                    3rd place: £30
                 </p>
                 <p className="information-text-weeks-remaining">
                     1 Week Remains
