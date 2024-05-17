@@ -8,7 +8,6 @@ const App = () => {
       <main>
         <div>
           <div className="container">
-            {/* ROW 1 */}
             <div className="row">
             <div className="col-sm">
                 <GolfPlayerCard golfScores={
@@ -58,11 +57,9 @@ const App = () => {
                   ]
                 } playerName="Andy" weeksPlayed={2} cardClass={"silver"}/>
               </div>
-              {/* ROW 1 END */}
             </div>
 
             <div className="row">
-              {/* ROW 2 */}
               <div className="col-sm">
               <GolfPlayerCard golfScores={
                 [
@@ -111,13 +108,9 @@ const App = () => {
                   ]
                 } playerName="Joe" weeksPlayed={2} />
               </div>
-              <div className="col-sm">
-              {/* ROW 2 END */}
-            </div>
             </div>
 
             <div className="row">
-              {/* ROW 3 */}
               <div className="col-sm">
               <GolfPlayerCard golfScores={
                   [
@@ -166,9 +159,7 @@ const App = () => {
                   ]
                 } playerName="Jez" weeksPlayed={1} />
               </div>
-                {/* <Information /> */}
-              </div>
-              {/* ROW 3 END */}
+            </div>
           </div>
         </div>
       </main>
