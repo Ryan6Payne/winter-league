@@ -45,7 +45,7 @@ const App = () => {
                 <GolfPlayerCard golfScores={
                   [
                     { week: 'Week1', score: 28 },
-                    { week: 'Week2', score: 34 },
+                    { week: 'Week2', score: 32 },
                     { week: '', score: 0 },
                     { week: '', score: 0 },
                     { week: '', score: 0 },
@@ -55,7 +55,7 @@ const App = () => {
                     { week: '', score: 0 },
                     { week: '', score: 0 }
                   ]
-                } playerName="Andy" weeksPlayed={2} cardClass={"silver"}/>
+                } playerName="Andy" weeksPlayed={2} cardClass={"bronze"}/>
               </div>
             </div>
 
