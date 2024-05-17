@@ -100,7 +100,8 @@ p {
 }
 
 .application {
-  background-color: #000;
+  background-image: url("../public/summer2.jpg");
+  background-size: cover;
   overflow: auto;
   height: 100vh;
 }
