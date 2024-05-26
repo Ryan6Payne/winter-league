@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/winter-league/static/css/main.b0fd15f6.css",
-    "main.js": "/winter-league/static/js/main.791f1530.js",
+    "main.css": "/winter-league/static/css/main.0f6aab2f.css",
+    "main.js": "/winter-league/static/js/main.862ea745.js",
     "static/js/787.5ca61b4a.chunk.js": "/winter-league/static/js/787.5ca61b4a.chunk.js",
-    "static/media/summer.jpg": "/winter-league/static/media/summer.5236a833fe2e26680659.jpg",
+    "static/media/joe_eagle.jpg": "/winter-league/static/media/joe_eagle.edfea432c0d89b8ac31b.jpg",
     "index.html": "/winter-league/index.html",
-    "main.b0fd15f6.css.map": "/winter-league/static/css/main.b0fd15f6.css.map",
-    "main.791f1530.js.map": "/winter-league/static/js/main.791f1530.js.map",
+    "main.0f6aab2f.css.map": "/winter-league/static/css/main.0f6aab2f.css.map",
+    "main.862ea745.js.map": "/winter-league/static/js/main.862ea745.js.map",
     "787.5ca61b4a.chunk.js.map": "/winter-league/static/js/787.5ca61b4a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0fd15f6.css",
-    "static/js/main.791f1530.js"
+    "static/css/main.0f6aab2f.css",
+    "static/js/main.862ea745.js"
   ]
 }
