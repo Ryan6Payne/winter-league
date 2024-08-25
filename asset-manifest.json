@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/winter-league/static/css/main.b0fd15f6.css",
-    "main.js": "/winter-league/static/js/main.fe1732b3.js",
+    "main.js": "/winter-league/static/js/main.1b8fa62d.js",
     "static/js/787.5ca61b4a.chunk.js": "/winter-league/static/js/787.5ca61b4a.chunk.js",
     "static/media/summer.jpg": "/winter-league/static/media/summer.5236a833fe2e26680659.jpg",
     "index.html": "/winter-league/index.html",
     "main.b0fd15f6.css.map": "/winter-league/static/css/main.b0fd15f6.css.map",
-    "main.fe1732b3.js.map": "/winter-league/static/js/main.fe1732b3.js.map",
+    "main.1b8fa62d.js.map": "/winter-league/static/js/main.1b8fa62d.js.map",
     "787.5ca61b4a.chunk.js.map": "/winter-league/static/js/787.5ca61b4a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b0fd15f6.css",
-    "static/js/main.fe1732b3.js"
+    "static/js/main.1b8fa62d.js"
   ]
 }
