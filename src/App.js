@@ -9,29 +9,11 @@ const App = () => {
         <div>
           <div className="container">
             <div className="row">
-              <div className="col-sm">
-                <GolfPlayerCard golfScores={
-                  [
-                    { week: 'Week20', score: 34 },
-                    { week: 'Week2', score: 32 },
-                    { week: 'Week3', score: 36 },
-                    { week: 'Week19', score: 38 },
-                    { week: 'Week7', score: 35 },
-                    { week: 'Week8', score: 33 },
-                    { week: 'Week22', score: 33 },
-                    { week: 'Week11', score: 38 },
-                    { week: 'Week12', score: 34 },
-                    { week: 'Week15', score: 36 },
-                    { week: 'Week16', score: 39 },
-                    { week: 'Week18', score: 40 }
-                  ]
-                } playerName="Andy" weeksPlayed={12} cardClass={"gold"}/>
-              </div>
-              <div className="col-sm">
+            <div className="col-sm">
                 <GolfPlayerCard golfScores={
                   [
                     { week: 'Week1', score: 32 },
-                    { week: 'Week2', score: 31 },
+                    { week: 'Week24', score: 38 },
                     { week: 'Week22', score: 36 },
                     { week: 'Week4', score: 38 },
                     { week: 'Week18', score: 39 },
@@ -43,8 +25,27 @@ const App = () => {
                     { week: 'Week14', score: 35 },
                     { week: 'Week15', score: 38 }
                   ]
-                } playerName="Craig" weeksPlayed={12} cardClass={"silver"} />
+                } playerName="Craig" weeksPlayed={12} cardClass={"gold"} />
               </div>
+              <div className="col-sm">
+                <GolfPlayerCard golfScores={
+                  [
+                    { week: 'Week20', score: 34 },
+                    { week: 'Week24', score: 33 },
+                    { week: 'Week3', score: 36 },
+                    { week: 'Week19', score: 38 },
+                    { week: 'Week7', score: 35 },
+                    { week: 'Week8', score: 33 },
+                    { week: 'Week22', score: 33 },
+                    { week: 'Week11', score: 38 },
+                    { week: 'Week12', score: 34 },
+                    { week: 'Week15', score: 36 },
+                    { week: 'Week16', score: 39 },
+                    { week: 'Week18', score: 40 }
+                  ]
+                } playerName="Andy" weeksPlayed={12} cardClass={"silver"}/>
+              </div>
+
               <div className="col-sm">
               <GolfPlayerCard golfScores={
                 [
@@ -52,7 +53,7 @@ const App = () => {
                   { week: 'Week2', score: 34 },
                   { week: 'Week3', score: 32 },
                   { week: 'Week18', score: 35 },
-                  { week: 'Week6', score: 30 },
+                  { week: 'Week24', score: 38 },
                   { week: 'Week7', score: 34 },
                   { week: 'Week8', score: 39 },
                   { week: 'Week9', score: 39 },
@@ -69,7 +70,7 @@ const App = () => {
             <div className="col-sm">
               <GolfPlayerCard golfScores={
                   [
-                    { week: 'Week22', score: 28 },
+                    { week: 'Week24', score: 29 },
                     { week: 'Week18', score: 32 },
                     { week: 'Week19', score: 40 },
                     { week: 'Week4', score: 38 },
@@ -85,11 +86,28 @@ const App = () => {
                 } playerName="Nick" weeksPlayed={12} />
               </div>
 
-
+              <div className="col-sm">
+                <GolfPlayerCard golfScores={
+                    [
+                      { week: 'Week18', score: 38 },
+                      { week: 'Week2', score: 36 },
+                      { week: 'Week3', score: 31 },
+                      { week: 'Week24', score: 38 },
+                      { week: 'Week22', score: 39 },
+                      { week: 'Week7', score: 31 },
+                      { week: 'Week20', score: 31 },
+                      { week: 'Week11', score: 32 },
+                      { week: 'Week12', score: 32 },
+                      { week: 'Week15', score: 31 },
+                      { week: 'Week16', score: 36 },
+                      { week: 'Week17', score: 36 }
+                    ]
+                  } playerName="Ryan" weeksPlayed={12} />
+              </div>
             <div className="col-sm">
               <GolfPlayerCard golfScores={
                   [
-                    { week: 'Week1', score: 28 },
+                    { week: 'Week24', score: 30 },
                     { week: 'Week3', score: 33 },
                     { week: 'Week6', score: 35 },
                     { week: 'Week7', score: 31 },
@@ -104,24 +122,7 @@ const App = () => {
                   ]
                 } playerName="Jez" weeksPlayed={12} />
               </div>
-              <div className="col-sm">
-                <GolfPlayerCard golfScores={
-                    [
-                      { week: 'Week18', score: 38 },
-                      { week: 'Week2', score: 36 },
-                      { week: 'Week3', score: 31 },
-                      { week: 'Week4', score: 30 },
-                      { week: 'Week22', score: 39 },
-                      { week: 'Week7', score: 31 },
-                      { week: 'Week20', score: 31 },
-                      { week: 'Week11', score: 32 },
-                      { week: 'Week12', score: 32 },
-                      { week: 'Week15', score: 31 },
-                      { week: 'Week16', score: 36 },
-                      { week: 'Week17', score: 36 }
-                    ]
-                  } playerName="Ryan" weeksPlayed={12} />
-              </div>
+
             </div>
             <div className="row">
             <div className="col-sm">
@@ -130,7 +131,7 @@ const App = () => {
                     { week: 'Week1', score: 35 },
                     { week: 'Week2', score: 27 },
                     { week: 'Week3', score: 30 },
-                    { week: 'Week4', score: 27 },
+                    { week: 'Week24', score: 27 },
                     { week: 'Week22', score: 32 },
                     { week: 'Week7', score: 32 },
                     { week: 'Week8', score: 34 },
@@ -141,6 +142,24 @@ const App = () => {
                     { week: 'Week17', score: 32 }
                   ]
                 } playerName="Gonz" weeksPlayed={12} />
+              </div>
+              <div className="col-sm">
+              <GolfPlayerCard golfScores={
+                  [
+                    { week: 'Week24', score: 31 },
+                    { week: 'Week20', score: 34 },
+                    { week: 'Week3', score: 26 },
+                    { week: 'Week6', score: 29 },
+                    { week: 'Week8', score: 30 },
+                    { week: 'Week9', score: 35 },
+                    { week: 'Week12', score: 25 },
+                    { week: 'Week15', score: 32 },
+                    { week: 'Week16', score: 33 },
+                    { week: 'Week17', score: 28 },
+                    { week: 'Week18', score: 33 },
+                    { week: 'Week19', score: 35 }
+                  ]
+                } playerName="Mike" weeksPlayed={12} />
               </div>
               <div className="col-sm">
                 <GolfPlayerCard golfScores={
@@ -160,24 +179,7 @@ const App = () => {
                   ]
                 } playerName="Joe" weeksPlayed={12}/>
               </div>
-              <div className="col-sm">
-              <GolfPlayerCard golfScores={
-                  [
-                    { week: 'Week1', score: 22 },
-                    { week: 'Week20', score: 34 },
-                    { week: 'Week3', score: 26 },
-                    { week: 'Week6', score: 29 },
-                    { week: 'Week8', score: 30 },
-                    { week: 'Week9', score: 35 },
-                    { week: 'Week12', score: 25 },
-                    { week: 'Week15', score: 32 },
-                    { week: 'Week16', score: 33 },
-                    { week: 'Week17', score: 28 },
-                    { week: 'Week18', score: 33 },
-                    { week: 'Week19', score: 35 }
-                  ]
-                } playerName="Mike" weeksPlayed={12} />
-              </div>
+
             </div>
           </div>
         </div>
