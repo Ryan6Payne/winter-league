@@ -14,6 +14,9 @@ function Information() {
                 <p className="information-text">
                     3rd place: £50
                 </p>
+                <p className="information-text">
+                    Best 8 scores, ending 6th April
+                </p>
             </div>
         </div>
     )
