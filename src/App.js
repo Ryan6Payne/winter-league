@@ -21,7 +21,7 @@ const App = () => {
                       { week: '', score: 0 },
                       { week: '', score: 0 }
                     ]
-                  } playerName="Joe" weeksPlayed={22} cardClass={"gold"}/>
+                  } playerName="Joe" weeksPlayed={2} cardClass={"gold"}/>
               </div>
             <div className="col-sm">
               <GolfPlayerCard golfScores={
