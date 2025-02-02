@@ -6,16 +6,19 @@ function Information() {
             </div>
             <div>
                 <p className="information-text">
-                    1st place: £130
+                    1st place: £120
                 </p>
                 <p className="information-text">
-                    2nd place: £90
+                    2nd place: £80
                 </p>
                 <p className="information-text">
-                    3rd place: £50
+                    3rd place: £40
                 </p>
                 <p className="information-text">
-                    Best 8 scores, ending 6th April
+                    Best 8 scores, ending 5th April at Belton Woods
+                </p>
+                <p className="information-text">
+                    10 weeks remain
                 </p>
             </div>
         </div>
