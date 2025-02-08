@@ -11,7 +11,7 @@ const App = () => {
     const fetchData = async () => {
       try {
         const response = await gapi.client.sheets.spreadsheets.values.get({
-          spreadsheetId: '1muR149PlBVl57T3dR2z2y3QH8GTOGzo2EMe6dknx1xM',
+          spreadsheetId: process.env.REACT_APP_SPREADSHEET_ID,
           range: 'Sheet1!A1:W9', // Adjust the range according to your sheet
         });
         const values = response.result.values;
@@ -23,7 +23,7 @@ const App = () => {
 
     const initClient = () => {
       gapi.client.init({
-        apiKey: 'AIzaSyA6rEKtOkGUw1EUK6-i70gRFU_PskctzxI',
+        apiKey: process.env.REACT_APP_API_KEY,
         discoveryDocs: ['https://sheets.googleapis.com/$discovery/rest?version=v4'],
       }).then(() => {
         fetchData();
