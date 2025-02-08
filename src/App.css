@@ -57,32 +57,32 @@ p {
 
 .information-card{
   background-color: #118C4F;
+  border: 2px solid black;
   border-radius: 20px;
   margin-bottom: 10px;
   margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
   opacity: 0.8;
-  width: 250px;
-  height: 200px;
-  border: 2px solid black;
+  width: 128px;
+  height: 155px;
 }
 
 .information-header{
   text-align: center;
   font-size: 14px;
-  padding-top: 5px;
-  padding-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 10px;
 }
 
 .information-text{
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 0px;
-  margin-bottom: 10px;
+  margin-top: 2px;
+  margin-bottom: 0px;
   font-size: 13px;
   text-align: center;
   padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .information-text-weeks-remaining {

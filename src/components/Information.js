@@ -5,7 +5,7 @@ function Information() {
                 <h5 className="information-header">Winter League 24/25</h5>
             </div>
             <div>
-                <p className="information-text">
+            <p className="information-text">
                     1st place: £120
                 </p>
                 <p className="information-text">
@@ -15,10 +15,7 @@ function Information() {
                     3rd place: £40
                 </p>
                 <p className="information-text">
-                    Best 8 scores, ending 5th April at Belton Woods
-                </p>
-                <p className="information-text">
-                    10 weeks remain
+                    The league ends in 10 rounds
                 </p>
             </div>
         </div>

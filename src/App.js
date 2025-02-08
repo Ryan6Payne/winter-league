@@ -85,7 +85,7 @@ const App = () => {
           <div className="container">
             <div className="row">
               {players.map((player, index) => (
-                <div className="col-sm" key={index}>
+                <div className="col-sm-4" key={index}>
                   <GolfPlayerCard
                     golfScores={player.golfScores}
                     playerName={player.playerName}
@@ -94,8 +94,10 @@ const App = () => {
                   />
                 </div>
               ))}
+              <div className="col-sm-4">
+                <Information />
+              </div>
             </div>
-            <Information />
           </div>
         </div>
       </main>
