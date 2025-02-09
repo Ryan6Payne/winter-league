@@ -15,7 +15,7 @@ function Information() {
                     3rd place: £40
                 </p>
                 <p className="information-text">
-                    The league ends 5th April at Belton Woods
+                    The league ends 5th April
                 </p>
             </div>
         </div>
