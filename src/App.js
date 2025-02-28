@@ -54,11 +54,12 @@ const App = () => {
   const players = data.slice(1).map((row, index) => {
     const golfScores = processScores(row.slice(1));
     const totalPoints = calculateTotalPoints(golfScores);
+    const weeksPlayed = Math.min(row.slice(1).filter(score => score !== '').length, 8);
     return {
       playerName: row[0],
       golfScores,
       totalPoints,
-      weeksPlayed: row.slice(1).filter(score => score !== '').length,
+      weeksPlayed,
     };
   });
 
