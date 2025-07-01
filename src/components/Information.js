@@ -2,23 +2,20 @@ function Information() {
     return (
         <div className="information-card">
             <div>
-                <h5 className="information-header">Winter League 24/25</h5>
+                <h5 className="information-header">Summer League 25</h5>
             </div>
             <div>
                 <p className="information-text">
-                    1st place: £120
+                    1st place: £130
                 </p>
                 <p className="information-text">
-                    2nd place: £80
+                    2nd place: £90
                 </p>
                 <p className="information-text">
-                    3rd place: £40
+                    3rd place: £50
                 </p>
                 <p className="information-text">
-                    Best 8 scores, ending 5th April at Belton Woods
-                </p>
-                <p className="information-text">
-                    10 weeks remain
+                    Best 8 scores, ends October 5th
                 </p>
             </div>
         </div>
