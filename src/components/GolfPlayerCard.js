@@ -1,7 +1,8 @@
 function GolfPlayerCard({ playerName, golfScores, weeksPlayed, cardClass }) {
     const sortedGolfScores = [...golfScores].sort((a, b) => b.score - a.score);
     const totalScore = golfScores.reduce((total, score) => total + score.score, 0);
-    const average = totalScore / weeksPlayed;
+    const cappedWeeks = Math.min(weeksPlayed, 8);
+    const average = totalScore / cappedWeeks;
 
     const firstHalf = sortedGolfScores.slice(0, Math.ceil(sortedGolfScores.length / 2));
     const secondHalf = sortedGolfScores.slice(Math.ceil(sortedGolfScores.length / 2));
