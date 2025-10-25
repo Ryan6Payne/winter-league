@@ -4,7 +4,7 @@ function GolfPlayerCard({ playerName, golfScores, weeksPlayed, cardClass }) {
     (total, score) => total + score.score,
     0
   );
-  const cappedWeeks = Math.min(weeksPlayed, 8);
+  const cappedWeeks = Math.min(weeksPlayed, 10);
   const average = totalScore / cappedWeeks;
 
   const firstHalf = sortedGolfScores.slice(

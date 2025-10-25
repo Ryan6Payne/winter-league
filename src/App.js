@@ -15,9 +15,10 @@ const App = () => {
       try {
         const response = await gapi.client.sheets.spreadsheets.values.get({
           spreadsheetId: spreadSheetId,
-          range: 'Sheet1!A1:W10', // Adjust the range according to your sheet
+          range: 'Sheet1!A1:W11', // Adjust the range according to your sheet
         });
         const values = response.result.values;
+        console.log(values);
         setData(values);
       } catch (error) {
         console.error('Error fetching data from Google Sheets:', error);
@@ -40,9 +41,9 @@ const App = () => {
     // Filter out empty scores and convert to integers
     const validScores = scores.map((score, i) => score !== '' ? { week: `Week${i + 1}`, score: parseInt(score) } : null).filter(score => score !== null);
     // Sort scores in descending order and take the best 8
-    const bestScores = validScores.sort((a, b) => b.score - a.score).slice(0, 8);
+    const bestScores = validScores.sort((a, b) => b.score - a.score).slice(0, 10);
     // Pad with empty entries if there are fewer than 8 scores
-    while (bestScores.length < 8) {
+    while (bestScores.length < 10) {
       bestScores.push({ week: '', score: '' });
     }
     return bestScores;
@@ -86,7 +87,7 @@ const App = () => {
           <div className="container">
             <div className="row">
 						  {players.map((player, index) => (
-                <div className="col-sm" key={index}>
+                <div className={`col-sm position-${index}`} key={index}>
                   <GolfPlayerCard
                     golfScores={player.golfScores}
                     playerName={player.playerName}
@@ -95,8 +96,8 @@ const App = () => {
                   />
                 </div>
               ))}
+              <Information/>
             </div>
-			<Information />
           </div>
         </div>
       </main>
