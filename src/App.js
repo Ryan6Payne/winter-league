@@ -15,7 +15,7 @@ const App = () => {
       try {
         const response = await gapi.client.sheets.spreadsheets.values.get({
           spreadsheetId: spreadSheetId,
-          range: 'Sheet1!A1:W11', // Adjust the range according to your sheet
+          range: 'Sheet1!A1:Y11', // Adjust the range according to your sheet
         });
         const values = response.result.values;
         console.log(values);
@@ -37,12 +37,20 @@ const App = () => {
     gapi.load('client', initClient);
   }, []);
 
-  const processScores = (scores) => {
-    // Filter out empty scores and convert to integers
-    const validScores = scores.map((score, i) => score !== '' ? { week: `Week${i + 1}`, score: parseInt(score) } : null).filter(score => score !== null);
-    // Sort scores in descending order and take the best 8
+  const processScores = (scores, headers = []) => {
+    // Map scores to objects using header names (fallback to WeekN), filter empties
+    const validScores = scores
+      .map((score, i) => {
+        if (score === '' || score == null) return null;
+        const weekLabel = headers[i] || `Week${i + 1}`;
+        return { week: weekLabel, score: parseInt(score, 10) };
+      })
+      .filter(item => item !== null && !Number.isNaN(item.score));
+
+    // Sort scores in descending order and take the top 10
     const bestScores = validScores.sort((a, b) => b.score - a.score).slice(0, 10);
-    // Pad with empty entries if there are fewer than 8 scores
+
+    // Pad with empty entries if there are fewer than 10 scores
     while (bestScores.length < 10) {
       bestScores.push({ week: '', score: '' });
     }
@@ -53,8 +61,10 @@ const App = () => {
     return scores.reduce((total, score) => total + (score.score || 0), 0);
   };
 
+  const headers = data && data.length > 0 ? data[0] : [];
+
   const players = data.slice(1).map((row, index) => {
-    const golfScores = processScores(row.slice(1));
+    const golfScores = processScores(row.slice(1), headers.slice(1));
     const totalPoints = calculateTotalPoints(golfScores);
     return {
       playerName: row[0],
