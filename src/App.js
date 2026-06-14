@@ -2,39 +2,33 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import GolfPlayerCard from './components/GolfPlayerCard';
 import Information from './components/Information';
-import { gapi } from 'gapi-script';
-
-const apiKey = process.env.REACT_APP_API_KEY;
-const spreadSheetId = process.env.REACT_APP_SPREADSHEET_ID;
 
 const App = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
+    const url = `https://docs.google.com/spreadsheets/d/1muR149PlBVl57T3dR2z2y3QH8GTOGzo2EMe6dknx1xM/gviz/tq?tqx=out:json&sheet=Sheet1`;
+
     const fetchData = async () => {
       try {
-        const response = await gapi.client.sheets.spreadsheets.values.get({
-          spreadsheetId: spreadSheetId,
-          range: 'Sheet1!A1:Y11', // Adjust the range according to your sheet
-        });
-        const values = response.result.values;
-        console.log(values);
-        setData(values);
+        const res = await fetch(url);
+        const text = await res.text();
+        const jsonText = text.replace(/^[^\(]*\(|\);?$/g, "");
+        const table = JSON.parse(jsonText).table;
+        // Build rows aligned with table.columns so empty cells don't shift indexes
+        const rows = table.rows.map(r =>
+          table.cols.map((col, i) => (r.c && r.c[i] && r.c[i].v != null ? r.c[i].v : ""))
+        );
+        // Prepend header labels so existing header-based logic continues to work
+        const headers = table.cols.map(c => c.label || "");
+        const rowsWithHeader = [headers, ...rows];
+        setData(rowsWithHeader);
       } catch (error) {
-        console.error('Error fetching data from Google Sheets:', error);
+        console.error('Error fetching published sheet:', error);
       }
     };
 
-    const initClient = () => {
-      gapi.client.init({
-        apiKey: apiKey,
-        discoveryDocs: ['https://sheets.googleapis.com/$discovery/rest?version=v4'],
-      }).then(() => {
-        fetchData();
-      });
-    };
-
-    gapi.load('client', initClient);
+    fetchData();
   }, []);
 
   const processScores = (scores, headers = []) => {
