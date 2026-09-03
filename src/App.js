@@ -41,11 +41,11 @@ const App = () => {
       })
       .filter(item => item !== null && !Number.isNaN(item.score));
 
-    // Sort scores in descending order and take the top 10
-    const bestScores = validScores.sort((a, b) => b.score - a.score).slice(0, 10);
+    // Sort scores in descending order and take the top 8 (best 8 scores)
+    const bestScores = validScores.sort((a, b) => b.score - a.score).slice(0, 8);
 
-    // Pad with empty entries if there are fewer than 10 scores
-    while (bestScores.length < 10) {
+    // Pad with empty entries if there are fewer than 8 scores
+    while (bestScores.length < 8) {
       bestScores.push({ week: '', score: '' });
     }
     return bestScores;
