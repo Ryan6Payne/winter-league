@@ -1,9 +1,9 @@
 function GolfPlayerCard({ playerName, golfScores, weeksPlayed, cardClass }) {
   const sortedGolfScores = [...golfScores].sort((a, b) => b.score - a.score);
-  const topScores = sortedGolfScores.slice(0, 8);
+  const topScores = sortedGolfScores.slice(0, 10);
   const totalScore = topScores.reduce((total, score) => total + (Number(score.score) || 0), 0);
   const entriesCount = golfScores.filter(s => s.score !== '' && s.score != null && !Number.isNaN(Number(s.score))).length;
-  const divisor = Math.min(entriesCount, 8);
+  const divisor = Math.min(entriesCount, 10);
   const average = divisor > 0 ? totalScore / divisor : 0;
 
   const firstHalf = topScores.slice(0, Math.ceil(topScores.length / 2));

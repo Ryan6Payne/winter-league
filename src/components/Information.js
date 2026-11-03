@@ -2,7 +2,7 @@ function Information() {
     return (
         <div className="information-card">
             <div>
-                <h5 className="information-header">Summer League 2026</h5>
+                <h5 className="information-header">Winter League 26/27</h5>
             </div>
             <div>
                 <p className="information-text">
@@ -15,7 +15,7 @@ function Information() {
                     3rd place: £40
                 </p>
                 <p className="information-text">
-                    Best 8 scores, ends October 4th
+                    Best 10 scores, ends April 18th
                 </p>
             </div>
         </div>
